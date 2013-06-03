@@ -27,3 +27,30 @@ article.archive-article-format { box-shadow: none; padding: 0; }
 
 // Add a little horizontal space in dt elements
 .dl-horizontal dt { width: 135px; }
+.dl-horizontal dd { margin-left: 140px; }
+
+.meta {
+  color: gray;
+  font-size: 10px;
+}
+
+.gf-title {
+font-family: inherit;
+font-weight: bold;
+font-size: 1.2em;
+line-height: 1;
+color: inherit;
+text-rendering: optimizelegibility;
+}
+
+.gf-author, .gf-spacer, .gf-relativePublishedDate {
+  color: gray;
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.gf-snippet {
+  line-height: 1.5;
+  font-size: 14px;
+  margin: 10px 0px 20px;
+}

@@ -1,0 +1,41 @@
+<script src="http://www.google.com/jsapi?key=AIzaSyA5m1Nc8ws2BbmPRwKu5gFradvD_hgq6G0" type="text/javascript"></script>
+<script type="text/javascript">
+google.load("feeds", "1");
+function OnLoad() {
+    // Create a feed control
+    var feedControl = new google.feeds.FeedControl();
+    feedControl.setNumEntries(1);
+    
+    // Add feeds.
+    feedControl.addFeed("http://positivelyglorious.com/feed", "<h1>PositivelyGlorious!</h1>");  
+    feedControl.setLinkTarget("_blank");
+// Draw it.
+    feedControl.draw(document.getElementById("positivelyglorious"));
+
+    var feedControl2 = new google.feeds.FeedControl();
+    feedControl2.setNumEntries(1);
+    feedControl2.addFeed("http://mettadore.com/feed", "<h1>MettaProgramming</h1>");
+    feedControl2.draw(document.getElementById('mettadore'));
+
+    var feedControl3 = new google.feeds.FeedControl();
+    feedControl3.setNumEntries(1);
+    feedControl3.addFeed("http://plusrss.metta.me", "<h1>On Google Plus</h1>");
+    feedControl3.draw(document.getElementById('mettaplus'));
+}
+google.setOnLoadCallback(OnLoad, true);
+</script>
+<article class="span4">
+  <div class="article-format">
+    <div class="entry-content" id="positivelyglorious">Loading Feed...</div>
+  </div>
+</article>
+<article class="span4">
+  <div class="article-format">
+    <div class="entry-content" id="mettadore">Loading Feed...</div>
+  </div>
+</article>
+<article class="span4">
+  <div class="article-format">
+    <div class="entry-content" id="mettaplus">Loading Feed...</div>
+  </div>
+</article>

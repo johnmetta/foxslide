@@ -1,4 +1,4 @@
-<h2>found on</h2>
+<h2>find me on</h2>
 {% if site.github_user %}
 <a href="https://github.com/{{site.github_user}}/" rel="tooltip" title="Github"><img class="social_icon" title="Github" alt="github icon" src="{{ root_url }}/images/glyphicons_381_github.png"></a>
 {% endif %}
@@ -23,7 +23,21 @@
 <a href="http://www.quora.com/{{site.quora_user}}" rel="tooltip" title="Quora"><img class="social_icon" title="Quora" alt="Quora icon" src="{{ root_url }}/images/glyphicons_385_quora.png"></a>
 {% endif %}
 
+{% if site.pinterest_user %}
+<a href="http://pinterest.com/{{site.pinterest_user}}" rel="tooltip" title="Pinterest"><img class="social_icon" title="Pinterest" alt="Pinterest Icon" src="{{ root_url }}/images/glyphicons_380_pinterest.png"></a>
+{% endif %}
+
+{% if site.lastfm_user %}
+<a href="http://last.fm/user/{{site.lastfm_user}}" rel="tooltip" title="lastfm"><img class="social_icon" title="lastfm" alt="Last.fm Icon" src="{{ root_url }}/images/glyphicons_416_last_fm.png"></a>
+{% endif %}
+
 {% if site.email %}
-<h2>contact at</h2>
+<h2>email</h2>
 <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 {% endif %}
+
+{% if site.googleplus_user %}
+  <br />&nbsp;<br />
+  <g:plus href="https://plus.google.com/{{ site.googleplus_user }}" height="69" width="170"></g:plus>
+{% endif %}
+

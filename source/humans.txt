@@ -1,11 +1,10 @@
 /* the humans responsible & colophon */
 /* humanstxt.org */
 
-
 /* TEAM */
-  Owner: Adrian Artiles
-  Site: http://AdrianArtiles.com
-  Twitter: @AdrianArtiles
+  Owner: John Metta
+  Site: http://johnmetta.com
+  Twitter: @JohnMetta
 
   UX Designer: Adrian Artiles
   Site: http://AdrianArtiles.com
