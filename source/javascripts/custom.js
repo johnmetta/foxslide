@@ -83,4 +83,9 @@ $(function(){
     });
   });
     
+  $(document).ready(function({
+      var x = $('#positivelyglorious').height();
+      $('#post-container').css('height', x.to_i+100);
+  });
+  
 });
