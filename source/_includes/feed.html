@@ -22,8 +22,11 @@ function OnLoad() {
     feedControl3.addFeed("http://plusrss.metta.me", "<h1>On Google Plus</h1>");
     feedControl3.draw(document.getElementById('mettaplus'));
 }
+function RefreshDiv() {
+  document.getElementById('post-container').contentWindow.location.reload(true);
+}
 google.setOnLoadCallback(OnLoad, true);
-document.getElementById('post-container').contentWindow.location.reload(true);
+google.setOnLoadCallback(RefreshDiv, true);
 </script>
 <article class="span4">
   <div class="article-format">
