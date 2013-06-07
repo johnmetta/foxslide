@@ -1,6 +1,9 @@
 .container {
   background-color: none;
 }
+#feed-container {
+  min-height: 250px;
+}
 #hero {
   position: fixed;
   top: 0;
