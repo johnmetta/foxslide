@@ -44,6 +44,15 @@ color: inherit;
 text-rendering: optimizelegibility;
 }
 
+/* solves the title overflow */
+.entry-content { 
+overflow-x:hidden;
+}
+
+.gfc-title h1 {
+    font-size: 2.0em;
+}
+
 .gf-author, .gf-spacer, .gf-relativePublishedDate {
   color: gray;
   font-size: 0.8em;
