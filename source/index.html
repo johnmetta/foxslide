@@ -43,4 +43,9 @@ layout: default
       </div>
   </div>
 </div>
-
+<script type="text/javascript">
+function RefreshDiv() {
+  document.getElementById('post-container').contentWindow.location.reload(true);
+}
+google.setOnLoadCallback(RefreshDiv, true);
+</script>
