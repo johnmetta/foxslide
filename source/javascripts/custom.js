@@ -83,8 +83,4 @@ $(function(){
     });
   });
     
-  $(document).ready(function({
-      $('#post-container').css('height', $('#positivelyglorious').height().to_i+100);
-  });
-  
 });
