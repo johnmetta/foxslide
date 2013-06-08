@@ -13,7 +13,7 @@ $(function(){
     username: $('.tweet').data('twitter-user'),
     join_text: "auto",
     avatar_size: 32,
-    count: 3,
+    count: 5,
     loading_text: "loading tweets...",
     auto_join_text_default: "",
     auto_join_text_ed: "",
